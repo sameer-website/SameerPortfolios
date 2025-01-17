@@ -1,0 +1,938 @@
+body {
+  background-color: rgb(1, 1, 27);
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(3, 3, 65);
+  height: 65px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0px 23px;
+}
+
+.left {
+  font-size: 1.5rem;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  padding: 5px;
+  border-radius: 10px;
+  color: aqua;
+  border-radius: 10px;
+}
+
+.left:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.Whatapp_phonecall {
+  position: fixed;
+  background-color: rgb(13, 190, 249);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 80px;
+  width: 50px;
+  padding: 5px;
+}
+.Whatapp_phonecall :nth-child(1) svg {
+  background-color: rgb(1, 1, 27);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.Whatapp_phonecall :nth-child(2) svg {
+  background-color: rgb(1, 1, 27);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.Whatapp_phonecall :nth-child(3) svg {
+  background-color: rgb(1, 1, 27);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.firstsection > div {
+  width: 30%;
+}
+
+.leftsection {
+  font-size: 2.5rem;
+  margin: 50px 0px;
+}
+
+.leftsection .buttons {
+  padding: 50px 0px;
+  width: 400px;
+}
+
+.buttons :nth-child(1) {
+  background-color: rgb(248, 245, 245);
+  padding: 5px;
+  color: rgb(10, 0, 0);
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.buttons :nth-child(1):hover {
+  box-shadow: 0px 0px 5px 5px white;
+}
+
+.buttons :nth-child(2) {
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  border: solid 2px white;
+}
+
+.buttons :nth-child(2):hover {
+  background-color: white;
+  color: black;
+}
+
+.rightsection img {
+  height: 400px;
+  width: 500px;
+  background-size: cover;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.red {
+  color: red;
+}
+
+.text-grey {
+  color: rgb(22, 22, 22);
+  height: 100px;
+  width: 100px;
+  font-size: 1.4rem;
+  padding: 7px;
+  border-radius: 10px;
+  color: brown;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+hr {
+  border: 0;
+  background: rgb(255, 4, 0);
+  height: 1.2px;
+  margin: 40px 84px;
+}
+
+#home {
+  color: red;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 2px;
+  border-bottom: solid 2px white;
+}
+
+#home:hover {
+  background-color: white;
+  box-shadow: 0px 0px 4px 2px white;
+  border-radius: 10px;
+}
+
+#element {
+  color: red;
+  font-size: 2.2rem;
+}
+.secondsection {
+  max-width: 82vw;
+  margin: 0 auto;
+  margin-bottom: 500px;
+}
+
+.secondsection h1 {
+  font-size: 1.8rem;
+  color: white;
+  margin-top: 15px;
+}
+
+.secondsection .box {
+  background: rgb(105, 101, 230);
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondsection .vertical {
+  height: 100px;
+  width: 2px;
+  background-color: rgb(92, 83, 228);
+  margin: 0 6vw;
+}
+
+.vertical .image-top {
+  width: 30px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+.vertical .image-top-youtube {
+  width: 45px;
+  position: relative;
+  top: -35px;
+  left: -9px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 70px;
+  width: 150px;
+  font-size: 14px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: pink;
+  width: 150px;
+  font-size: 12px;
+}
+
+#services {
+  margin: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#services .box {
+  border: 2px solid rgb(17, 106, 162);
+  padding: 34px;
+  margin: 25px 6px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+#services .box img {
+  height: 140px;
+  margin: 0 auto;
+  display: block;
+}
+
+#services .box p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+.h-primary {
+  font-size: 3.8rem;
+  padding: 12px;
+
+  color: rgb(82, 211, 247);
+}
+
+.h-secondary {
+  font-size: 2.8rem;
+  padding: 12px;
+}
+.flex {
+  width: 627px !important;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.footer-rights {
+  background-color: #040417;
+}
+
+.sidebaricontoggle i {
+  display: none;
+}
+
+#services .box {
+  background-color: #0f0f3b;
+}
+
+#services .box:hover {
+  background-color: rgb(1, 1, 27);
+  transition-duration: 1.5s;
+  transform: scale(1.1);
+}
+
+#contact {
+  position: relative;
+}
+
+#contact::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  background-image: url("CONTACTUS.jpg");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea {
+  width: 100%;
+  padding: 0.5em;
+}
+
+#contact-box form {
+  width: 100%;
+}
+
+#contact-box label {
+  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.form-group :nth-child(2) {
+  background-color: rgb(1, 1, 27);
+  border: solid 1px rgb(17, 106, 162);
+  color: white;
+  border-radius: 10px;
+}
+.form-group {
+  margin-top: 10px;
+}
+::placeholder {
+  color: rgb(82, 73, 73);
+}
+
+footer {
+  background-color: rgb(13, 190, 249);
+  padding: 3rem 0;
+}
+
+footer ul {
+  color: black;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+footer ul li {
+  font-weight: 700;
+}
+
+footer ul li:hover{
+  border-bottom: 3px solid red;
+  cursor: pointer;
+}
+footer::before {
+  background-color: white;
+  width: 100x;
+}
+.footer_social {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0px;
+}
+
+.footer_social a svg {
+  color: white;
+  gap: 2rem;
+  padding: 10px;
+  font-size: 3rem;
+  border-radius: 10px;
+  background-color: #05103a;
+}
+
+.sameer_portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.sameer_portfolio :nth-child(1) {
+  color: black;
+  font-size: 2rem;
+  font-family: "Agdasima", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Kalam", cursive;
+}
+
+.sameer_portfolio :nth-child(2) {
+  color: red;
+  font-size: 2rem;
+  font-family: "Agdasima", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Kalam", cursive;
+}
+.footer_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.footer_link :nth-child(1) {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+.instagram_whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(1, 1, 27);
+  gap: 2rem;
+  margin: 30px 0px;
+}
+
+.contact_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.instagram {
+  height: 250px;
+  width: 250px;
+  background-color: rgb(24, 2, 122);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.instagram:hover {
+  transition-duration: 1.5s;
+  background-color: rgb(1, 1, 27);
+
+  border: solid 1px rgb(9, 208, 253);
+}
+.instagram :nth-child(1) {
+  color: rgb(239, 43, 76);
+  font-size: 2rem;
+}
+.instagram :nth-child(3) {
+  color: white;
+  margin: 7px 0px;
+  text-decoration: none;
+}
+.instagram :nth-child(4) {
+  background-color: rgb(0, 187, 255);
+  margin-top: 10px;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.whatsapp {
+  height: 250px;
+  width: 250px;
+  background-color: rgb(24, 2, 122);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.whatsapp:hover {
+  transition-duration: 1.5s;
+  background-color: rgb(1, 1, 27);
+
+  border: solid 1px rgb(9, 208, 253);
+}
+.whatsapp :nth-child(1) {
+  font-size: 2rem;
+  color: green;
+}
+
+.whatsapp :nth-child(3) {
+  text-decoration: none;
+  color: white;
+  margin: 7px 0px;
+}
+.whatsapp :nth-child(4) {
+  text-decoration: none;
+  background-color: rgb(0, 187, 255);
+  margin-top: 10px;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+}
+.gmail_facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(1, 1, 27);
+  gap: 2rem;
+  flex-direction: column;
+}
+.gmail {
+  height: 250px;
+  width: 250px;
+  background-color: rgb(24, 2, 122);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gmail:hover {
+  transition-duration: 2s;
+  background-color: rgb(1, 1, 27);
+
+  border: solid 1px rgb(9, 208, 253);
+}
+.gmail :nth-child(1) {
+  color: rgb(226, 239, 43);
+  font-size: 2rem;
+}
+.gmail :nth-child(3) {
+  color: white;
+  margin: 7px 0px;
+  text-decoration: none;
+}
+.gmail :nth-child(4) {
+  background-color: rgb(0, 187, 255);
+  margin-top: 10px;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.facebook {
+  height: 250px;
+  width: 250px;
+  background-color: rgb(24, 2, 122);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.facebook:hover {
+  transition-duration: 2s;
+  background-color: rgb(1, 1, 27);
+  border: solid 1px rgb(9, 208, 253);
+}
+.facebook :nth-child(1) {
+  font-size: 2rem;
+}
+
+.facebook :nth-child(3) {
+  text-decoration: none;
+  color: white;
+  margin: 7px 0px;
+}
+.facebook :nth-child(4) {
+  text-decoration: none;
+  background-color: rgb(0, 187, 255);
+  margin-top: 10px;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+}
+.experience {
+  display: flex;
+  gap: 1rem;
+}
+.flex_experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.experience svg {
+  color: aqua;
+  border-radius: 50%;
+  margin: 18px 0px;
+}
+.experience div :nth-child(1) {
+  margin: 15px 0px;
+}
+.experience div :nth-child(2) {
+  margin: 10px 0px;
+}
+@media screen and (max-width: 1200px) {
+  .box {
+    flex-direction: column;
+  }
+  .Whatapp_phonecall {
+    margin-top: 130px;
+    z-index: 1;
+  }
+  .instagram_whatsapp {
+    margin: 30px 0px;
+  }
+  .services-container {
+    margin-top: 100px;
+  }
+
+  .left {
+    margin-bottom: 10px;
+  }
+  .vertical-title,
+  .vertical-desc {
+    top: -35px;
+    left: 45px;
+  }
+  .secondsection .box {
+    width: 70vw;
+  }
+  .secondsection {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  .secondsection .vertical {
+    height: unset;
+  }
+
+  nav {
+    flex-direction: column;
+    height: 110px;
+  }
+
+  .firstsection {
+    flex-direction: column-reverse;
+    margin-bottom: 0px;
+  }
+
+  .leftsection {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rightsection {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rightsection img {
+    width: 45vw;
+    margin-bottom: 50px;
+  }
+
+  .vertical-desc {
+    width: 300px;
+  }
+
+  .text-grey {
+    height: 50px;
+    width: 200px;
+  }
+
+  .secondsection .box :nth-child(5) img {
+    margin-left: -11px;
+  }
+  .secondsection {
+    margin-bottom: 1200px;
+  }
+    .firstsection {
+        padding-top: 140px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+  #services {
+    flex-direction: column;
+  }
+  nav {
+    height: 130px;
+    margin-top: -20px;
+  }
+  footer ul {
+    gap: 1.3rem;
+  }
+  .instagram {
+    width: 200px;
+    height: 200px;
+  }
+  .whatsapp {
+    width: 200px;
+    height: 200px;
+  }
+  .gmail {
+    height: 200px;
+    width: 200px;
+  }
+  .facebook {
+    height: 200px;
+    width: 200px;
+  }
+  .gmail :nth-child(3) {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .left {
+    margin-top: 15px;
+  }
+  .secondsection {
+    margin-bottom: 1500px;
+  }
+  footer ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact_flex {
+    flex-direction: column;
+    margin: 20px 0px;
+  }
+  .services-container {
+    margin-top: 20px;
+  }
+  .instagram_whatsapp {
+    display: flex !important;
+  }
+  .gmail_facebook {
+    display: flex;
+  }
+  .sidebaricontoggle i {
+    display: inline;
+    font-size: 2.3rem;
+  }
+
+  .leftsection .buttons {
+    width: 310px;
+  }
+
+  #sidebarmenu {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 70px;
+    padding: 50px;
+    background-color: black;
+    transform: translateX(-640px);
+    transition: transform 250ms ease-in-out;
+    z-index: 1;
+  }
+
+  .sidebaricontoggle {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 20;
+    top: 23px;
+    left: 15px;
+    cursor: pointer;
+  }
+
+  #opensidebarmenu:checked ~ #sidebarmenu {
+    transform: translateX(0px);
+  }
+
+  ul li a {
+    font-size: 13px;
+  }
+
+  nav ul li {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .rightsection img {
+    width: 300px;
+    height: 300px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    margin-top: 0px;
+    height: 80px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+  }
+
+  .vertical-desc {
+    width: 200px;
+  }
+
+  .full-stack-developer {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .leftsection :nth-child(1) {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  #element {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    font-size: 20px !important;
+  }
+
+  .h-secondary {
+    font-size: 30px;
+  }
+
+  #sidebarmenu ul li {
+    padding: 30px;
+    font-size: 2rem;
+  }
+
+  #sidebarmenu ul li a {
+    font-size: 1.7rem;
+  }
+
+  .bar-flex {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .Whatapp_phonecall{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0px;
+    border-radius: 0%;
+  }
+  .Whatapp_phonecall :nth-child(2) svg{
+    margin-bottom: 10px;
+  }
+  .Whatapp_phonecall :nth-child(3) svg{
+    margin-bottom: 10px;
+  }
+  .left {
+    font-size: 1.3rem;
+    margin-left: 40px;
+  }
+  .flex_experience {
+    flex-direction: column;
+  }
+  .h-secondary {
+    font-size: 1.6rem;
+  }
+  #contact {
+    margin-top: 2000px;
+  }
+  .box img {
+    height: 50px;
+    width: 80px;
+  }
+
+  .rightsection img {
+    height: 177px;
+    width: 209px;
+  }
+
+  .leftsection .buttons {
+    width: 250px;
+    margin-bottom: -30px;
+  }
+
+  .buttons .btn {
+    font-size: 1rem !important;
+  }
+
+  .vertical-desc {
+    width: 150px;
+  }
+
+  .services-container {
+    margin-top: 100px;
+  }
+  .sameer_portfolio :nth-child(1) {
+    font-size: 1.5rem;
+  }
+  .sameer_portfolio :nth-child(2) {
+    font-size: 1.5rem;
+  }
+}
